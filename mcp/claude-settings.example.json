@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "google-workspace": {
+      "command": "node",
+      "args": [
+        "${HOME}/mcp-servers/google-docs-mcp/dist/index.js"
+      ],
+      "env": {
+        "GOOGLE_CREDENTIALS_FILE": "${HOME}/.config/google/credentials.json"
+      }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(git *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep"
+    ],
+    "deny": []
+  }
+}
