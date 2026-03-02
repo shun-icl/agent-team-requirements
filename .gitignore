@@ -1,0 +1,34 @@
+# MCP認証情報（絶対にコミットしない）
+credentials.json
+token.json
+*.pem
+*.key
+
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ログ
+*.log
+logs/
